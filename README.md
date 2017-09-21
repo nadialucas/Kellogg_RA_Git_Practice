@@ -1,5 +1,43 @@
-# gitTutorial
+# gitTutorial by Nadia Lucas 09/21/2017
 
-This repo is meant to teach beginners how to use Git. It is liberally copied from Max Goldman's repo meant for 6.005
+This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found here: https://github.com/kelloggrk/Kellogg_RA_Manual/wiki
 
-This repo is used concurrently with his lecture notes: https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/
+This repo contains data located in /RawData/movies.csv that is from the FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but here it is for reference: https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/
+
+## Bootstrapping - for those who have never seen Git before
+
+1. Download Git: https://git-scm.com/
+
+2. I recommend using command line git. It's only a few commands to learn and will make your life a lot easier when you run into problems. Virtually everyone in the online community uses command line git and there are a lot of answers out there to git problems with command line solutions. With that said, Git Bash is recommended for this purpose. Mac users already have this in Terminal but Windows users will need to install it although if you use the install above, bash is included
+
+3. I recommend also practicing some terminal commands that can be found later in the tutorial, here: https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/#terminal and also completing the following step, Configure Git to get some cool git features in your terminal
+
+## Procedure
+
+1. Open an Issue to describe your own task and assign yourself that Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test. 
+
+* The deliverable is to create a .do file in a folder titled /Code which does the following:
+  
+* Creates an intermediate data file located in a folder titled /IntermediateData which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates a new variable titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie 
+
+2. Create a branch titled issue###_<short_description_of_issue> 
+
+3. Complete the task
+
+4. Pull request and then merge to master
+
+5. Delete the branch and close the issue
+
+### Optional
+
+6. If with someone else well-versed in GitHub, practice merging
+
+* Each person pulls and edits one of the hello files (hello.txt and hello.py) - attempt a merge
+  
+* Each person pulls and edits hello.txt and the edits are done in different places - attempt a merge
+  
+* Each person pulls and edits hello.txt but this time edit the same part of the file - attempt a merge and then resolve the merge conflict
+  
+## Further material
+
+For anyone still interested in furthering git knowledge, the following lecture notes are great for an intuition in Version Control and can help in visualizing what is happening at every step of the way from staging to committing to pushing and merging: https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/
