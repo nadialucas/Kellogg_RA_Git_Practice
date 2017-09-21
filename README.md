@@ -17,9 +17,9 @@ This repo contains data located in /RawData/movies.csv that is from the FiveThir
 
 1. Open an Issue to describe your own task and assign yourself that Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test. 
 
-* The deliverable is to create a .do file in a folder titled /Code which does the following:
+* The deliverable is to create a .do file in a folder titled /Code/Build which does the following:
   
-* Creates an intermediate data file located in a folder titled /IntermediateData which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates a new variable titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie 
+* Creates an intermediate .dta file located in a folder titled /IntermediateData which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
 
 2. Create a branch titled issue###_<short_description_of_issue> 
 
