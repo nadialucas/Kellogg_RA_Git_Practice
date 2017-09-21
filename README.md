@@ -1,4 +1,5 @@
-# gitTutorial by Nadia Lucas 09/21/2017
+# gitTutorial 
+#### by Nadia Lucas 09/21/2017
 
 This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found here: https://github.com/kelloggrk/Kellogg_RA_Manual/wiki
 
