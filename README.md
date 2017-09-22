@@ -1,9 +1,11 @@
-# gitTutorial 
+# Kellogg_RA_Git_Practice 
 #### by Nadia Lucas 09/21/2017
 
 This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found here: https://github.com/kelloggrk/Kellogg_RA_Manual/wiki
 
-This repo contains data located in /RawData/movies.csv that is from the FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but here it is for reference: https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/
+This repo contains data located in a Dropbox: https://www.dropbox.com/sh/5qz98h5ew3tlfbk/AADcgfQl-dhfLso1BbAkpQMja?dl=0. The data located in /RawData/movies.csv is from the FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but here it is for reference: https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/
+
+* Note: we will be following the conventions from the RA manual where all data will be located on the Dropbox and all code will be located on the GitHub. 
 
 ## Bootstrapping - for those who have never seen Git before
 
@@ -19,7 +21,7 @@ This repo contains data located in /RawData/movies.csv that is from the FiveThir
 
 * The deliverable is to create a .do file in a folder titled /Code/Build which does the following:
   
-* Creates an intermediate .dta file located in a folder titled /IntermediateData which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
+* Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
 
 2. Create a branch titled issue###_<short_description_of_issue> 
 
