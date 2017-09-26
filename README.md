@@ -23,7 +23,7 @@ This repo contains data located in a Dropbox: https://www.dropbox.com/sh/5qz98h5
   
 * Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
 
-2. Create a branch titled issue###_<short_description_of_issue> 
+2. Create a branch titled issue###-short_description_of_issue
 
 3. Complete the task
 
