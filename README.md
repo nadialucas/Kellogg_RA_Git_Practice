@@ -1,7 +1,7 @@
 # Kellogg_RA_Git_Practice 
 #### by Nadia Lucas 09/21/2017
 
-This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found [here]: (https://github.com/kelloggrk/Kellogg_RA_Manual/wiki)
+This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found [here](https://github.com/kelloggrk/Kellogg_RA_Manual/wiki)
 
 This repo contains data located in a [Dropbox] (https://www.dropbox.com/sh/5qz98h5ew3tlfbk/AADcgfQl-dhfLso1BbAkpQMja?dl=0). The data located in /RawData/movies.csv is from a FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but [here] (https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/)it is for reference: 
 
