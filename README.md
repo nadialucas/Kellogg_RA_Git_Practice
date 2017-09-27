@@ -3,7 +3,7 @@
 
 This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found [here](https://github.com/kelloggrk/Kellogg_RA_Manual/wiki)
 
-This repo contains data located in a [Dropbox](https://www.dropbox.com/sh/5qz98h5ew3tlfbk/AADcgfQl-dhfLso1BbAkpQMja?dl=0). The data located in /RawData/movies.csv is from a FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but [here](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/)it is for reference: 
+This repo contains data located in a [Dropbox](https://www.dropbox.com/sh/5qz98h5ew3tlfbk/AADcgfQl-dhfLso1BbAkpQMja?dl=0). The data located in /RawData/movies.csv is from a FiveThirtyEight article about the Bechdel test. This is not a Stata coding intensive tutorial so the focus should not be on replicating the results found in the article but [here](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/) it is for reference: 
 
 * Note: we will be following the conventions from the RA manual where all data will be located on Dropbox and all code will be located on GitHub. 
 
@@ -43,4 +43,4 @@ This repo contains data located in a [Dropbox](https://www.dropbox.com/sh/5qz98h
   
 ## Further material
 
-For anyone interested in furthering their git knowledge, [these](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/)lecture notes are great for an intuition in version control and can help in visualizing what is happening at every step of the way from staging to committing to pushing and merging: 
+For anyone interested in furthering their git knowledge, [these](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/) lecture notes are great for an intuition in version control and can help in visualizing what is happening at every step of the way from staging to committing to pushing and merging: 
