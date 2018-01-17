@@ -13,7 +13,9 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 
 2. I recommend using command line git. It's only a few commands to learn and will make your life a lot easier when you run into problems. Virtually everyone in the online community uses command line git and there are a lot of answers out there to git problems with command line solutions. With that said, Git Bash is recommended for this purpose. Mac users already have this in Terminal but Windows users will need to install it although if you use the install above, bash is included.
 
-3. I recommend also practicing some terminal commands that can be found in these [lecture notes]( https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/#terminal) on Git and also completing the following step, Configure Git, to get some cool git features in your terminal.
+3. I recommend also practicing some terminal commands that can be found in these [notes]( https://ocw.mit.edu/ans7870/6/6.005/s16/getting-started/#terminal) on Git and also completing the following step, Configure Git, to get some cool git features in your terminal.
+
+4. If you do not want to use command line git, there is also [GitHub Desktop](https://desktop.github.com/) which has been getting much better over time. This is essentially just a GUI for command line git and is a little further removed from the nuts and bolts of what is going on. However, it is much easier to use and recommended for beginners with no command line experience to get up and running with git.
 
 ## Procedure
 
@@ -43,4 +45,4 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
   
 ## Further material
 
-For anyone interested in furthering their git knowledge, this other set of [lecture notes](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/) are great for an intuition in version control and can help in visualizing what is happening at every step of the way from staging to committing to pushing and merging: 
+For anyone interested in furthering their git knowledge, this other set of [notes](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/05-version-control/) are great for an intuition in version control and can help in visualizing what is happening at every step of the way from staging to committing to pushing and merging. This set of notes is recommended for anyone who wants to incorporate git into all future projects. It is great for understanding what happens under the hood so fixing any issues becomes a lot easier/less stressful.
