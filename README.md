@@ -19,25 +19,27 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 
 ## Procedure
 
-1. Clone the repository (https://github.com/nadialucas/Kellogg_RA_Git_Practice.git) on to your local machine.
+1. Clone the repository (https://github.com/nadialucas/Kellogg_RA_Git_Practice.git) on to your local machine. If using GitHub Desktop, go to File -> Clone Repository.
 
-2. Open an Issue to describe your own task and assign yourself that Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test. 
+2. Open an Issue (this is done while in the web browser version of the repository) to describe your own task and assign yourself that Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test. 
 
 * The deliverable is to create a .do file in a folder titled /Code/Build which does the following:
   
 * Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
 
-3. Create a branch titled issue###-short_description_of_issue
+3. Create a branch titled issue###-short_description_of_issue. On Desktop this is Branch -> New Branch.
 
 4. Complete the task
 
-5. Pull request and then merge to master
+5. Add, commit (with commit message describing task briefly), and push your changes to your branch. If on Desktop, only need to commit changes by typing in a summary of changes and pressing button "Commit to <branch name>" followed by a push found in the upper menu bar.
 
-6. Delete the branch and close the issue
+6. Pull request and then merge to master (this is done in the web browser version fo the repository).
+
+7. Delete the branch and close the issue (also done in web browser repo)
 
 ### Optional
 
-7. If with someone else well-versed in GitHub, practice merging
+8. If with someone else well-versed in GitHub, practice merging
 
 * Each person pulls and edits one of the hello files (hello.txt and hello.py) - attempt a merge
   
