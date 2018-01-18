@@ -17,7 +17,47 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 
 4. If you do not want to use command line git, there is also [GitHub Desktop](https://desktop.github.com/) which has been getting much better over time. This is essentially just a GUI for command line git and is a little further removed from the nuts and bolts of what is going on. However, it is much easier to use and recommended for beginners with no command line experience to get up and running with git.
 
-## Procedure
+## Procedure for Command Line Git
+
+1. Clone the repository on to your local machine with the following command
+    git clone https://github.com/nadialucas/Kellogg_RA_Git_Practice.git
+
+2. Open an Issue using the GitHub web browser by navigating to the tab labeled "Issues". In this issue, describe your own task and assign yourself the Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test.
+
+* The deliverable is to create a .do file in a folder titled /Code/Build which does the following:
+  
+* Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test.
+
+3. Create a branch titled issue###-short_description_of_issue. 
+    git checkout -b isssue###-short_description_of_issue
+In case you ever want to check what branch you are on, simply type 
+    git branch
+And to check out a different branch type
+    git checkout <branch name>
+
+4. Complete the task
+
+5. Check the status of all the files changes with the command
+    git status
+
+6. Add, commit (with message) and push changes to your branch
+    git add .
+will add all files to the commit
+    git add <filename>
+adds files specifically to the commit
+    git commit -m "message describing changes made to files staged for commit"
+    git push origin <branch name>
+
+7. Back in the web browser, pull request the branch you created into the master branch. Do this by going to the tab labeled "Pull Requests" and click the green button labeled "New pull request". Label the pull request and describe briefly what was done in this branch. 
+
+8. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with
+    git branch -D <branch name>
+
+9. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
+
+
+
+
 
 1. Clone the repository (https://github.com/nadialucas/Kellogg_RA_Git_Practice.git) on to your local machine. If using GitHub Desktop, go to File -> Clone Repository.
 
@@ -35,7 +75,7 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 
 6. Pull request and then merge to master (this is done in the web browser version fo the repository).
 
-7. Delete the branch and close the issue (also done in web browser repo)
+7. Delete the branch and close the issue (also done in web browser repo). Close out the
 
 ### Optional
 
@@ -46,6 +86,8 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 * Each person pulls and edits hello.txt and the edits are done in different places - attempt a merge
   
 * Each person pulls and edits hello.txt but this time edit the same part of the file - attempt a merge and then resolve the merge conflict
+
+9. Working with remote branches
   
 ## Further material
 
