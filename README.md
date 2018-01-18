@@ -53,33 +53,34 @@ adds files specifically to the commit
 8. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with
     git branch -D <branch name>
 
-9. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
+9. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate with to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
 
 
+## Procedure for GitHub Desktop
 
+1. Clone the repository on to your local machine. Go to File -> Clone Repository. and click URL. Enter the repo URL (https://github.com/nadialucas/Kellogg_RA_Git_Practice.git).
 
-
-1. Clone the repository (https://github.com/nadialucas/Kellogg_RA_Git_Practice.git) on to your local machine. If using GitHub Desktop, go to File -> Clone Repository.
-
-2. Open an Issue (this is done while in the web browser version of the repository) to describe your own task and assign yourself that Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test. 
+2. Open an Issue using the GitHub web browser by navigating to the tab labeled "Issues". In this issue, describe your own task and assign yourself the Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test.
 
 * The deliverable is to create a .do file in a folder titled /Code/Build which does the following:
   
-* Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test 
+* Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test.
 
-3. Create a branch titled issue###-short_description_of_issue. On Desktop this is Branch -> New Branch.
+3. Create a branch titled issue###-short_description_of_issue by going to Branch -> New Branch.
 
 4. Complete the task
 
-5. Add, commit (with commit message describing task briefly), and push your changes to your branch. If on Desktop, only need to commit changes by typing in a summary of changes and pressing button "Commit to <branch name>" followed by a push found in the upper menu bar.
+5. Add, commit (with commit message describing task briefly), and push your changes to your branch. Type in a summary of changes and pressing button "Commit to <branch name>" followed by a push found in the upper menu bar.
 
-6. Pull request and then merge to master (this is done in the web browser version fo the repository).
+6. Back in the web browser, pull request the branch you created into the master branch. Do this by going to the tab labeled "Pull Requests" and click the green button labeled "New pull request". Label the pull request and describe briefly what was done in this branch. 
 
-7. Delete the branch and close the issue (also done in web browser repo). Close out the
+7. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with Branch -> Delete.
+
+8. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate with to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
 
 ### Optional
 
-8. If with someone else well-versed in GitHub, practice merging
+**If with someone else well-versed in GitHub, practice merging**
 
 * Each person pulls and edits one of the hello files (hello.txt and hello.py) - attempt a merge
   
@@ -87,7 +88,10 @@ adds files specifically to the commit
   
 * Each person pulls and edits hello.txt but this time edit the same part of the file - attempt a merge and then resolve the merge conflict
 
-9. Working with remote branches
+**Working with remote branches**
+If you would like to access a branch another contributor has made, this is relatively intuitive with GitHub Desktop but in command line git, you first need to fetch the remote branch before doing a branch checkout.
+    git fetch origin <remote branch name>
+    git checkout <remote branch name>
   
 ## Further material
 
