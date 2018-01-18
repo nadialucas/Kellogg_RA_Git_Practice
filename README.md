@@ -45,7 +45,7 @@ git checkout <branch name>
 
 4. Complete the task
 
-5. Check the status of all the files changes with the command```git status```.
+5. Check the status of all the files changes with the command ```git status```.
 
 6. Add, commit (with message) and push changes to your branch. To add all files to commit use ```git add .``` and use ```git add <filename>``` to add files specifically to the commit. Then create a commit with all files staged for commit and push the changes.
 ```
