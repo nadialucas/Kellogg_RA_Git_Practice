@@ -20,7 +20,7 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 ## Procedure for Command Line Git
 
 1. Clone the repository on to your local machine with the following command
-    git clone https://github.com/nadialucas/Kellogg_RA_Git_Practice.git
+```git clone https://github.com/nadialucas/Kellogg_RA_Git_Practice.git```
 
 2. Open an Issue using the GitHub web browser by navigating to the tab labeled "Issues". In this issue, describe your own task and assign yourself the Issue. The goal of this small task is to create a cleaned dataset. We care mostly about return on investment on movies that do and do not pass the Bechdel test.
 
@@ -29,29 +29,31 @@ This repo contains data located in a Dropbox [folder](https://www.dropbox.com/sh
 * Creates an intermediate .dta file located in a folder titled /IntermediateData in the Dropbox which only contains the variables: year, imdb, budget_2013, intgross_2013, and creates 3 new variables titled return_on_investment which simply calculates intgross_2013/budget_2013 for each movie, roi_median_pass which is the median return on investment of all movies that pass the Bechdel test, and roi_median_fail which is the median return on investment of all movies that fail the Bechdel test.
 
 3. Create a branch titled issue###-short_description_of_issue. 
-    git checkout -b isssue###-short_description_of_issue
+```git checkout -b isssue###-short_description_of_issue```
 In case you ever want to check what branch you are on, simply type 
-    git branch
+```git branch```
 And to check out a different branch type
-    git checkout <branch name>
+```git checkout <branch name>```
 
 4. Complete the task
 
 5. Check the status of all the files changes with the command
-    git status
+```git status```
 
 6. Add, commit (with message) and push changes to your branch
-    git add .
+```git add .```
 will add all files to the commit
-    git add <filename>
+```git add <filename>```
 adds files specifically to the commit
-    git commit -m "message describing changes made to files staged for commit"
-    git push origin <branch name>
+```
+git commit -m "message describing changes made to files staged for commit"
+git push origin <branch name>
+```
 
 7. Back in the web browser, pull request the branch you created into the master branch. Do this by going to the tab labeled "Pull Requests" and click the green button labeled "New pull request". Label the pull request and describe briefly what was done in this branch. 
 
 8. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with
-    git branch -D <branch name>
+```git branch -D <branch name>```
 
 9. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate with to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
 
@@ -90,8 +92,10 @@ adds files specifically to the commit
 
 **Working with remote branches**
 If you would like to access a branch another contributor has made, this is relatively intuitive with GitHub Desktop but in command line git, you first need to fetch the remote branch before doing a branch checkout.
-    git fetch origin <remote branch name>
-    git checkout <remote branch name>
+```
+git fetch origin <remote branch name>
+git checkout <remote branch name>
+```
   
 ## Further material
 
