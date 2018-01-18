@@ -45,20 +45,9 @@ git checkout <branch name>
 
 4. Complete the task
 
-5. Check the status of all the files changes with the command
-```
-git status
-```
+5. Check the status of all the files changes with the command```git status```.
 
-6. Add, commit (with message) and push changes to your branch
-```
-git add .
-```
-will add all files to the commit
-```
-git add <filename>
-```
-adds files specifically to the commit
+6. Add, commit (with message) and push changes to your branch. To add all files to commit use ```git add .``` and use ```git add <filename>``` to add files specifically to the commit. Then create a commit with all files staged for commit and push the changes.
 ```
 git commit -m "message describing changes made to files staged for commit"
 git push origin <branch name>
@@ -66,10 +55,7 @@ git push origin <branch name>
 
 7. Back in the web browser, pull request the branch you created into the master branch. Do this by going to the tab labeled "Pull Requests" and click the green button labeled "New pull request". Label the pull request and describe briefly what was done in this branch. 
 
-8. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with
-```
-git branch -D <branch name>
-```
+8. Merge the branch with the master branch and close out the pull request. Delete the branch at this time (there should be an indicator that the branch can be safely delete). Once the branch on the repo is deleted, it can be safely deleted from your machine with ```git branch -D <branch name>```.
 
 9. Close out the issue with a description as per the RA manual. To get a revision-stable link of the repo, navigate with to the folder the code is in. Type and hold "y" on the keyboard and the url will then change to a revision-stable link of the specific commit in history.
 
