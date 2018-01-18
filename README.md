@@ -1,5 +1,5 @@
 # Kellogg_RA_Git_Practice 
-#### by Nadia Lucas 09/21/2017
+#### last edited by Nadia Lucas 1/18/2018
 
 This repo is meant to teach beginners how to use Git in accordance with Ryan Kellogg's RA workflow. In particular the naming folders conventions, and how to handle GitHub issues, branching and pull requests. That workflow can be found on Ryan's [wiki](https://github.com/kelloggrk/Kellogg_RA_Manual/wiki)
 
